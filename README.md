@@ -19,23 +19,3 @@ Repo Link: https://github.com/jotika-meaw/Assignment_6_PH
 4. **My Plan log (`/my-plan`)** — `MY PLAN` header, live Exercises / Minutes / Calories metrics, Today's Plan / Saved tabs, `Loading workouts…` state, cards with View Details / Mark as Done ✓ / Remove ✕, and `NOTHING HERE YET` empty state with `Go to workouts`.
 5. **Navbar badges + footer + 404** — `Workout` / `My Plan` links with active highlight, lime `Plan` pill + outlined `Saved` pill both linking to `/my-plan`, dark footer with `© 2026 FitLog`, custom 404, fully responsive mobile → desktop, reload-safe routes.
 
-## Getting Started
-```bash
-npm install
-npm run dev    # http://localhost:3000
-npm run build  # must pass without errors
-npm start
-```
-
-## Plan Rules
-- Max **5 lifts** in Today's Plan (`Add to today's plan` disables + warns when full).
-- Plan / Saved / Done persist in `localStorage`, so reloads and redeploys keep your log.
-- Every action fires a toast: added, saved, marked done, removed, full/duplicate warnings.
-
-## Deploy (Vercel)
-```bash
-npm i -g vercel
-vercel login
-vercel --prod
-```
-Or push `main` to GitHub and Import in Vercel. No env vars needed. Dynamic API fetches use `cache: no-store`, all routes are reload-safe.
