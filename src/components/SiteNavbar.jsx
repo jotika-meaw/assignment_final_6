@@ -57,7 +57,7 @@ export default function SiteNavbar() {
             title="Today's plan"
             className="flex items-center gap-2 rounded-full bg-[#ccff00] pl-3 pr-2 py-1.5"
           >
-            <span className="text-[11px] font-bold uppercase tracking-wider text-black hidden xs:inline sm:inline">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-black hidden min-[420px]:inline">
               Plan
             </span>
             <span className="min-w-5 h-5 px-1 rounded-full bg-black text-[#ccff00] grid place-items-center text-[11px] font-bold">
@@ -69,7 +69,7 @@ export default function SiteNavbar() {
             title="Saved workouts"
             className="flex items-center gap-2 rounded-full border border-white/20 px-3 py-1.5"
           >
-            <span className="text-[11px] font-bold uppercase tracking-wider text-[#d1d5db] hidden xs:inline sm:inline">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-[#d1d5db] hidden min-[420px]:inline">
               Saved
             </span>
             <span className="min-w-5 h-5 px-1 rounded-full bg-[#1a1d24] grid place-items-center text-[11px] text-white">
