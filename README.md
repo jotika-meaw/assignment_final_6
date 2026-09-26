@@ -2,8 +2,8 @@
 
 FitLog is a dark, no-nonsense gym companion: pick a lift, lock it into today's plan, and watch the week's work add up. Browse twelve lifts, open any workout for full specs and coaching cues, then log it to a capped 5-lift daily plan.
 
-Live Link: _(deploy with `vercel --prod` then paste URL here)_
-Repo Link: _(paste your GitHub repo URL here)_
+Live Link: https://fitlog-workout-library-seven.vercel.app
+Repo Link: https://github.com/jotika-meaw/Assignment_6_PH
 
 ## Technologies Used
 - **Next.js 16 (App Router)** — routing, layouts, `not-found.js` for 404
