@@ -57,7 +57,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="font-display text-4xl md:text-5xl font-bold uppercase tracking-tight mb-3">
-              The Library
+              THE LIBRARY
             </h2>
             <p className="text-[#9ca3af]">Twelve lifts covering every major muscle group.</p>
           </div>

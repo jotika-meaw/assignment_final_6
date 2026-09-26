@@ -53,7 +53,7 @@ export default function MyPlanPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
       <div className="text-center mb-10">
         <h1 className="font-display text-4xl sm:text-5xl font-bold uppercase tracking-tight mb-3">
-          My Plan
+          MY PLAN
         </h1>
         <p className="text-[#9ca3af] text-sm">
           Cap of five lifts for today. Finish them, then load more.
@@ -97,12 +97,12 @@ export default function MyPlanPage() {
       ) : cards.length === 0 ? (
         <div className="text-center py-16 sm:py-20 bg-white/[0.02] rounded-3xl border-2 border-dashed border-white/10 px-6">
           <p className="font-display text-xl font-bold uppercase tracking-wider mb-3">
-            Nothing here yet
+            NOTHING HERE YET
           </p>
           <p className="text-[#9ca3af] text-sm mb-6">
             Browse the library and add a lift to get today moving.
           </p>
-          <Link href="/#library" className="btn-accent inline-block px-8 py-3 text-xs">
+          <Link href="/" className="btn-accent inline-block px-8 py-3 text-xs">
             Go to workouts
           </Link>
         </div>
