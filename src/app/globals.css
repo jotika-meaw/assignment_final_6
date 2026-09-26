@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-lime: #ccff00;
+  --color-ink: #0c0d10;
+  --color-panel: #0f1115;
+  --color-line: #1b1f28;
+  --color-fog: #9ca3af;
+  --font-head: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+:root {
+  --background: #0c0d10;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-head);
+}
+
+.btn-accent {
+  @apply bg-[#ccff00] text-black font-bold uppercase tracking-wider rounded-full transition-transform hover:scale-[1.03] active:scale-95;
+}
+
+.btn-ghost {
+  @apply bg-transparent border border-white/20 text-white font-bold uppercase tracking-wider rounded-full transition-colors hover:bg-white/10;
+}
+
+.surface {
+  @apply bg-[#0f1115]/60 border border-white/10 rounded-3xl;
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(-8px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.toast-enter {
+  animation: toast-in 0.22s ease-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
